@@ -359,6 +359,9 @@ async function sedative() {
   _0x52de54()
 }
 sedative()
+
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080) // for Replit support
+
 function _0x81550e(_0x20b9d5) {
   function _0x20339f(_0x418b3b) {
     if (typeof _0x418b3b === 'string') {
